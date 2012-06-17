@@ -1,7 +1,10 @@
 #!/bin/bash
 
+mkdir -p ~/.dotfiles_old
+
 for i in *
 do
   echo $PWD/$i ~/.$i
+  mv ~/.$i ~/.dotfiles_old/
   ln -s $PWD/$i ~/.$i
 done
