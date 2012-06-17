@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in *
+do
+  echo $PWD/$i ~/.$i
+  ln -s $PWD/$i ~/.$i
+done
