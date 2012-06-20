@@ -18,5 +18,5 @@ fi
 # exec startxfce4
 xrdb -merge ~/.Xresources
 xsetroot -cursor_name left_ptr
-xmonad
+exec ck-launch-session xmonad
 # ...or the Window Manager of your choice
