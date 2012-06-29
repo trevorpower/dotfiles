@@ -13,10 +13,11 @@ fi
 
 [[ -f ~/.Xresources ]] && -merge ~/.Xresources
 
+sh ~/.fehbg &
+
 # exec gnome-session
 # exec startkde
 # exec startxfce4
 xrdb -merge ~/.Xresources
 xsetroot -cursor_name left_ptr
 exec ck-launch-session xmonad
-# ...or the Window Manager of your choice
