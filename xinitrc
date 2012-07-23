@@ -21,4 +21,3 @@ sh ~/.fehbg &
 xrdb -merge ~/.Xresources
 xsetroot -cursor_name left_ptr
 exec ck-launch-session xmonad
-# ...or the Window Manager of your choice
