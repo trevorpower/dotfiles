@@ -114,4 +114,4 @@ xterm*faceName: inconsolata:pixelsize=19
 xterm*utf8: 2
 
 URxvt.scrollBar: false
-URxvt.font: xft:inconsolata:size=15
+URxvt.font: xft:inconsolata:size=12

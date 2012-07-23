@@ -13,6 +13,8 @@ fi
 
 [[ -f ~/.Xresources ]] && -merge ~/.Xresources
 
+sh ~/.fehbg &
+
 # exec gnome-session
 # exec startkde
 # exec startxfce4
