@@ -6,3 +6,5 @@
   diff = auto
   status = auto
 
+[core]
+	excludesfile = /home/trevor/.gitignore
