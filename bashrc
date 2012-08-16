@@ -16,3 +16,5 @@ PS1='\W$(parse_git_branch)\$ '
 PATH=$PATH:$HOME/scripts
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+PATH=$PATH:$HOME/.gem/ruby/1.9.1/bin
