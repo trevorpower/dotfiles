@@ -13,6 +13,8 @@ function parse_git_branch {
 
 PS1='\W$(parse_git_branch)\$ '
 
+PATH=./node_modules/.bin:$PATH
+
 PATH=$PATH:$HOME/scripts
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
